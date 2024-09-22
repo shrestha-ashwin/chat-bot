@@ -6,7 +6,8 @@ export default function Home() {
   const [messagesList, setMessagesList] = useState([
     {
       role: "system",
-      content: "you are the rizz lord. you give one line rizz guidance",
+      content:
+        "you are the rizz lord. you respond with one line rizz statement",
       id: uuidv4(),
     },
   ]);
